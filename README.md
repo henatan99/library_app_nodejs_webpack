@@ -3,16 +3,20 @@ This project is building a simple Library App which let's users look up for list
 
 ### Demo 
 - Home page 
-![screenshot](docs/1.png)
+<!-- ![screenshot](docs/1.png) -->
 - Menu Page
-![screenshot](docs/2.png)
+<!-- ![screenshot](docs/2.png) -->
 - Contact page
-![screenshot](docs/3.png)
+<!-- ![screenshot](docs/3.png) -->
 
 ## Testing 
 For testing please clone the repo and run the tests with two simple steps:
 - git clone git@github.com:henatan99/todo-list.git 
 - cd into the project root directory and run 'npm run test' on terminal 
+
+## Debugs
+-Error ; `MySQL 8.0 - Client does not support authentication protocol requested by server; consider upgrading MySQL client`
+- Solution: change the mysql package to mysql2 with `npm un mysql && npm i mysql2`
 
 ## Built With
 
